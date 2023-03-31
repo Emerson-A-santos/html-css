@@ -1,6 +1,9 @@
-h1 {
+h1, h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
     color:#ffff;
     text-shadow: 5px 5px 5px black;
+    
+   
+    
 }

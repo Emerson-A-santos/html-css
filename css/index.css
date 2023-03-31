@@ -30,44 +30,11 @@ a::before {
     margin-right: 10px;
 }
 
-#button {
-    display: inline-block;
-    background-color: #2255ff;
-    height: 18px;
-    line-height: 18px;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0px rgb(0, 0, 0);
-    margin-right: 0px;
-    transition: 1s;
 
-    
-}
-#button:hover {
-    background-color: rgb(2, 41, 172);
-    transform: scale(1.1);
-    
-   
-}
 span {
 
     background-color: white;
     width: 10px;
     height: 10px;
     margin-right: 10px;
-}
-
-
-
-.btn01 { 
-    display: inline-block;
-    background-color: rgb(255, 21, 21);
-    font-size: 25px;
-    font-family: "Fira Code", sans-serif, Arial, Helvetica;
-    color:#ffff;
-    position: center;
-    margin-left: 50px;
-    margin-top: 40px;
-    justify-content: space-between;
-    margin-right: 50px;
-    
 }

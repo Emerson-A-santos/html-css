@@ -1,14 +1,13 @@
 .box {
     display: inline-block;
     background-color: #2255ff;
-    box-shadow: 10px 10px 0px black;
-    width: 500px;
-    height: 190;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+    box-shadow: 7px 7px 0px black;
+    width: 630px;
+    padding: 20px 20px;
     text-align: center;
     margin-top: 70px;
     margin-left: 90px;
+}
+.box h1 {
+    margin-bottom: 5px;
 }
