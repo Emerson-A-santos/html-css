@@ -1,6 +1,6 @@
 .box {
     display: inline-block;
-    background-color: #2255ff;
+    background-color: rgb(78, 134, 255);
     box-shadow: 7px 7px 0px black;
     width: 630px;
     padding: 20px 20px;
