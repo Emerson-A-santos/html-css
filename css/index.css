@@ -57,20 +57,7 @@ span {
 }
 
 
-.boxh1 {
-    display: inline-block;
-    background-color: #2255ff;
-    box-shadow: 10px 10px 0px black;
-    width: 500px;
-    height: 190;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: center;
-    margin-top: 70px;
-    margin-left: 90px;
-}
+
 .btn01 { 
     display: inline-block;
     background-color: rgb(255, 21, 21);
