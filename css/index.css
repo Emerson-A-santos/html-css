@@ -55,3 +55,39 @@ span {
     height: 10px;
     margin-right: 10px;
 }
+
+h2 {
+    font-family: "Fira Code", sans-serif, Arial, Helvetica;
+    font-size: 30px;
+    color:red;
+    
+}
+.boxh1 {
+    display: inline-block;
+    background-color: #2255ff;
+    box-shadow: 10px 10px 0px black;
+    width: 500px;
+    height: 190;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 90px;
+
+}
+.btn01{
+    display: inline-block;
+    background-color: rgb(255, 21, 21);
+    font-size: 25px;
+    font-family: "Fira Code", sans-serif, Arial, Helvetica;
+    color:#ffff;
+    
+    position: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    justify-content: space-between;
+    margin-right: 50px;
+    
+}
