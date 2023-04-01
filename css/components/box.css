@@ -1,12 +1,10 @@
 .box {
-    display: inline-block;
-    background-color: rgb(78, 134, 255);
+    
+    background-color: #000;
     box-shadow: 7px 7px 0px black;
-    width: 630px;
     padding: 20px 20px;
     text-align: center;
-    margin-top: 70px;
-    margin-left: 90px;
+    
 }
 .box .title {
     margin-bottom: 5px;
