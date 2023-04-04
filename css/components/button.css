@@ -2,9 +2,10 @@
     display: inline-block;
     background-color: #212121;
     color: #fff;
-    height: 18px;
-    line-height: 18px;
-    padding: 18px 20px;
+    margin-top: 15px;
+    height: 15px;
+    line-height: 15px;
+    padding: 12px 12px;
    /* box-shadow: 5px 5px 0px rgb(0, 0, 0);*/
     margin-right: 0px;
     transition: 1s;
