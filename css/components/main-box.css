@@ -1,0 +1,30 @@
+.main-box {
+    background-color: #000;
+    box-shadow: 7px 7px 0px black;
+    padding: 10px 10px;
+    text-align: center;
+}
+.main-box .title {
+    margin-bottom: 5px;
+}
+.main-box.-second {
+    background-color: aliceblue;
+    width: 250px;
+    height: 260px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.main-box.-third {
+    background-color:#4C5B84;
+    width: 250px;
+    height: 260px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.main-box.-fourth{
+    background-color: chocolate;
+    width: 250px;
+    height: 260px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
