@@ -1,0 +1,10 @@
+.projetos-tec{
+    display: flex;
+    margin-left: 50px;
+    
+}
+
+.projetos-tec .icon1{
+    padding-top: 50px;
+}
+
