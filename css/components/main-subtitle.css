@@ -3,3 +3,10 @@
     font-size: 30px;   
     padding: 5px;
 }
+
+.main-subtitle.-bio {
+    color: #000;
+    font-size: 25px;
+    text-align: justify;
+
+}
