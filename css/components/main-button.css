@@ -16,3 +16,10 @@
     transform: scale(1.1);
     color: white;
 }
+
+.main-button.-full {
+    width: 80%;
+    height: 50px;
+    transition: none;
+    transform: none;
+}
