@@ -39,10 +39,10 @@
             <img src="assets/img/easlogo.png">
             
             <nav> <!-- navigation é a navegação do site, o menu-->
-                <a class="main-action" href="#"lang="en">Skills</a>
-                <a class="main-action" href="#Projetos">Projetos</a>
-                <a class="main-action" href="#">Sobre</a>
-                <a class="main-action" href="#">Contatos</a>
+                <a class="main-action" href="#skills"lang="en">Skills</a>
+                <a class="main-action" href="#projetos">Projetos</a>
+                <a class="main-action" href="#sobre">Sobre</a>
+                <a class="main-action" href="#contatos">Contatos</a>
                 <a class="main-button" href="#" lang="en" >Download CV</a>
             </nav>
         
@@ -55,12 +55,12 @@
                 </div>
                 <div class="navigation">
                     <a class="main-button" href="#" lang="en" >Download</a>
-                    <a class="main-button" href="#">Contatos</a>
+                    <a class="main-button" href="#contatos">Contatos</a>
                 </div>
             </div>   
         </section>   
         
-        <section class="main-section">
+        <section id="skills" class="main-section">
                  <h2 class="main-title -second">Skills</h2>   
                 <div class="wrapper-skill">
 
@@ -130,7 +130,7 @@
                 </div>
         </section>
 
-        <section class="main-section -second">
+        <section id="projetos" class="main-section -second">
             <h2 class="main-title -secondP">Projetos</h2>
             <div class="wrapper-projetos">
                 
@@ -158,7 +158,7 @@
             </div>
         </section>
         
-        <section class="main-section -sobre">
+        <section id="sobre" class="main-section -sobre">
             <h2 class="main-title -second">Sobre</h2>
                 
                 <section class="main-carousel">
@@ -211,49 +211,48 @@
                     </div>
                     <button class="button-arrow -right"><span class="content">Voltar</span></button>
                 </section>
-                <div class="wrapper-bio">
+                <div id="biografia" class="wrapper-bio">
                     <article class="bio">
                         <h2 class="main-subtitle -bio">
-                            Hoje, Analista de Infraestrutura pelo GrupoAcert, Emerson já trabalhou nas mais diversas empresas.<br><br>
-                            Foi professor de academia e informática, entrou na área de TI como técnico em informática 
-                            em sua própria escola de curso onde estudava contabilidade,
+                            Hoje, Analista de Infraestrutura, Emerson já trabalhou nas mais diversas empresas em diferentes segmentos.<br><br>
+                            Foi professor de informática"básica, Hardware", entrou na área de TI como técnico em informática aos 16 anos
+                            em sua própria escola de curso "Microlins" onde estava cursando um curso sobre contabilidade,
                             desde então foi descobrindo seu caminho conforme o percorria.<br><br>
-                            Emerson tem uma crescente presença em comunidades de Infraestrutura, trabalhando para sempre estar por dentro das atualidades, 
-                            escreve em diversos fóruns e em seu blog particular, quando não está jogando Futebol e Treinando na academia, 
-                            pratica Airsoft ou trocando ideias com amigos.
+                            Emerson tem uma crescente presença em comunidades de Infraestrutura "CLOUD", trabalhando e buscando sempre estar por dentro das atualidades, 
+                            participa em diversos fóruns de tecnologia visando obter mais conhecimento profissional, quando não está praticando Futebol, Treinando na academia, 
+                            pratica Airsoft nos fim de semana classe em que preferida "suporte com sua LMG M249", adora passar cada momento de lazer e descontração com sua futura esposa.
                         </h2>
                     </article>
                 </div>
         </section>
 
-            <form class="main-form">
+            <form id="contatos" class="main-form">
                 <legend class="main-title -second">Contatos</legend>
         
                 <label class="main-label" for="name">Nome</label>
-                <input class="main-input" id="name" type="text">
+                <input class="main-input" id="name" type="text" required>
         
                 <label class="main-label" for="email">Email</label>
-                <input class="main-input" id="email" type="email">
+                <input class="main-input" id="email" type="email" required>
                
         
                 <label class="main-label" for="message">Mensagem</label>
-                <textarea class="main-input -textarea" id="message"></textarea>
+                <textarea class="main-input -textarea" id="message" required></textarea>
         
-                <button m class="main-button -full" type="submit">Enviar</button>
+                <button class="main-button -full" type="submit">Enviar</button>
+                <button class="main-button -full" type="reset">Limpar</button>
+                
             </form>
         <footer class="main-footer">
-            <a class="action"href="http://youtube.com" target="_blank">
-                <img src="img/youtube 1.png" alt="youtube">
-            </a>    
-            <a class="action"href="http://discord.com" target="_blank">
-                <img src="img/discord 1.png" alt="discord">
-            </a>
-            <a class="action"href="http://twitter.com" target="_blank" >
-                <img src="img/twitter 1.png" alt="twitter">
-            </a>
-            <div class="htmlcss">
-                <h3 class="msg" >Site desenvolvido a paritr do projeto html e css feliz, professor Marco Bruno. @Emerson Santos</h3>
-            </div>
+                <a class="action"href="http://youtube.com" target="_blank">
+                    <img src="img/youtube 1.png" alt="youtube">
+                </a>    
+                <a class="action"href="http://discord.com" target="_blank">
+                    <img src="img/discord 1.png" alt="discord">
+                </a>
+                <a class="action"href="http://twitter.com" target="_blank" >
+                    <img src="img/twitter 1.png" alt="twitter">
+                </a>
         </footer>
         <script src="js/components/main-carousel.js"></script>
     </body>
